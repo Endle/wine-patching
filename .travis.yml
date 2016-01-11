@@ -1,4 +1,6 @@
 script:
     - git clone wine-mirror wine-code
+    - git config --global user.email "sample@stub.com"
+    - git config --global user.name "LovelyBot"
     - wine-staging-mirror/patches/patchinstall.sh DESTDIR="$(pwd)/wine-code" --all --force-autoconf --backend=git-am
 
