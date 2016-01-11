@@ -1,3 +1,3 @@
 script:
-    - echo "Hello"
+    - wine-staging-mirror/patches/patchinstall.sh DESTDIR=wine-mirror --all --force-autoconf --backend=git-am
 
