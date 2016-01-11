@@ -1,5 +1,7 @@
 require 'sinatra'
 
+set :port, 12999
+
 post '/payload' do
   system("git submodule update --remote")
   system("git add .")
