@@ -1,4 +1,5 @@
 script:
     - git clone wine-staging-mirror wine-code
-    - wine-staging-mirror/patches/patchinstall.sh DESTDIR=wine-code --all --force-autoconf --backend=git-am
+    - ls
+    - wine-staging-mirror/patches/patchinstall.sh DESTDIR="$(pwd)/wine-code" --all --force-autoconf --backend=git-am
 
