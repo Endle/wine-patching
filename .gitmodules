@@ -1,0 +1,6 @@
+[submodule "wine-mirror"]
+	path = wine-mirror
+	url = https://github.com/Endle/wine-mirror.git
+[submodule "wine-staging-mirror"]
+	path = wine-staging-mirror
+	url = https://github.com/Endle/wine-staging-mirror
