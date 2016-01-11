@@ -1,3 +1,4 @@
 script:
-    - wine-staging-mirror/patches/patchinstall.sh DESTDIR=wine-mirror --all --force-autoconf --backend=git-am
+    - cp -R wine-staging-mirror wine-code
+    - wine-staging-mirror/patches/patchinstall.sh DESTDIR=wine-code --all --force-autoconf --backend=git-am
 
